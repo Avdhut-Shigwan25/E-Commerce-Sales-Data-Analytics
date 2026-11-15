@@ -1,27 +1,44 @@
 # E-Commerce Sales Data Analytics Project
 
 ## Project Overview
-This project analyzes Brazilian e-commerce data to identify sales trends, customer behavior, product performance, payment preferences, and seller performance.
 
-The project uses Python, MySQL, and Power BI to transform raw data into meaningful business insights through data cleaning, SQL analysis, visualization, and interactive dashboards.
+This project analyzes Brazilian e-commerce data from the Olist
+marketplace to discover business insights and understand sales
+performance, customer behavior, product categories, payment
+preferences, and seller performance.
+
+The project follows an end-to-end data analytics workflow using
+Python, MySQL, and Power BI. It includes data exploration,
+cleaning, SQL analysis, data visualization, and an interactive
+business intelligence dashboard.
 
 ## Tools and Technologies
-- **Python:** Pandas, NumPy, Matplotlib, Seaborn
-- **Database:** MySQL 8.4
-- **Data Visualization:** Power BI
-- **Development Environment:** Visual Studio Code
-- **Dataset:** Brazilian E-Commerce Public Dataset by Olist
+
+| Technology | Purpose |
+|---|---|
+| Python | Data cleaning, analysis and visualization |
+| Pandas | Data manipulation and processing |
+| NumPy | Numerical operations |    
+| Matplotlib | Data visualization |
+| Seaborn | Statistical visualization |
+| MySQL 8.4 | Database management and SQL analysis |
+| Power BI | Interactive dashboard development |
+| Visual Studio Code | Code development environment |
+| Git & GitHub | Version control and project hosting |
+
 
 ## Project Structure
 
 ```text
-Data_Analytics_Project/
+E-Commerce-Sales-Data-Analytics/
 │
 ├── data/
-│   ├── raw/
-│   └── processed/
+│   ├── raw/                  # Original datasets (not uploaded)
+│   └── processed/            # Cleaned and analyzed datasets
 │
-├── reports/
+├── notebook/                 # Jupyter notebooks
+│
+├── reports/                  # Analysis charts and visualizations
 │
 ├── sql/
 │   └── 01_business_analysis.sql
@@ -37,8 +54,11 @@ Data_Analytics_Project/
 ├── 08_payment_analysis.py
 ├── 09_seller_analysis.py
 │
-└── E-Commerce Analysis.pbix
+├── E-Commerce Analysis.pbix
+├── README.md
+└── .gitignore
 ```
+
 
 ## Project Workflow
 
@@ -48,14 +68,43 @@ Data_Analytics_Project/
 4. **SQL Analysis:** Used MySQL queries to perform business analysis.
 5. **Power BI Dashboard:** Developed interactive dashboards to present business insights.
 
+
 ## Key Business Insights
 
-- Total Orders: 99,441
-- Delivered Orders: 96,478
-- Total Product Revenue: R$13,221,498.11
-- Average Order Value: R$137.04
-- Average Delivery Time: 12.50 days
-- On-Time Delivery Rate: 91.88%
+The analysis of the Olist Brazilian e-commerce dataset revealed the following results:
+
+| Business Metric | Result |
+|---|---:|
+| Total Orders | 99,441 |
+| Delivered Orders | 96,478 |
+| Total Product Revenue | R$13,221,498.11 |
+| Average Order Value | R$137.04 |
+| Average Delivery Time | 12.50 days |
+| On-Time Deliveries | 88,644 |
+| On-Time Delivery Rate | 91.88% |
+
+### Analysis Areas
+
+- **Sales Analysis:** Examined revenue trends and order performance.
+- **Customer Analysis:** Identified customer distribution across states.
+- **Product Analysis:** Analyzed top-performing product categories.
+- **Payment Analysis:** Studied customer payment preferences.
+- **Seller Analysis:** Evaluated seller revenue and performance.
+- **Delivery Analysis:** Examined order status and delivery performance.
+
+
+## Power BI Dashboard
+
+The interactive Power BI dashboard contains three pages:
+
+### 1. E-Commerce Overview
+![E-Commerce Overview](reports/dashboard_screenshots/page1_overview.png)
+
+### 2. Business Performance
+![Business Performance](reports/dashboard_screenshots/page2_business_performance.png)
+
+### 3. Seller Details
+![Seller Details](reports/dashboard_screenshots/page3_seller_details.png)
 
 ## Power BI Dashboard
 

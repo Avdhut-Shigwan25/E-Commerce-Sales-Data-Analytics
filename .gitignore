@@ -1,0 +1,23 @@
+
+# Python environment
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# Large raw datasets
+data/raw/
+
+# Temporary files
+*.log
+*.tmp
+
+# Operating system
+.DS_Store
+Thumbs.db
